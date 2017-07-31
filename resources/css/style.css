@@ -1,0 +1,263 @@
+html{
+  font-size: 14px;
+}
+body{
+  width: 100%
+}
+#container{
+  font-family: 'Open Sans', sans-serif;
+  color: #585858;
+  /*background-color: #FFF6F6;*/
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+  margin: auto;
+  padding: 1.7rem 2.2rem;
+}
+.content-1,
+.content-3{
+    background-color: #f1f1f1;
+}
+.content-2,
+.content-4{
+    background-color: #FFFFFF;
+}
+
+/*CSS for Header*/
+header{
+  height: 4.5rem;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header p{
+  margin-left: 1.7rem;
+  padding: 0.6rem 0;
+}
+ul{
+  margin-right: 1.7rem;
+  padding: 1.4rem 1.1rem;
+}
+header ul li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 1.1rem;
+}
+li a{
+  text-decoration: none;
+  color: #333333;
+}
+
+/* CSS for banner section 1 */
+.learning_1{
+  display: flex;
+  flex-direction: row;
+}
+.block_1{
+  width: 60%;
+  margin-right: 40px;
+}
+.block_1 img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.block_2{
+  width: 30rem;
+  margin: 100px auto;
+  text-align: left;
+}
+.block_2 p{
+  margin-bottom: 70px;
+}
+.block_2 p:nth-child(1){
+  font-size: 2rem;
+  font-weight: 700;
+}
+.block_2 p:nth-child(2){
+  font-size: 1rem;
+  font-weight: normal;
+  font-size: 2rem;
+}
+.block_2 p:nth-child(3){
+  font-size: 1rem;
+  font-weight: normal;
+  width: 200px;
+  padding: 8px;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+
+/* CSS for section 2 - Keep practicing*/
+.learning_2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+}
+.practice_left{
+  width: 60%;
+  border-right: 1px solid #C8C8C8;
+}
+.practice-image{
+  margin-right: 1.7rem;
+}
+
+.practice_left .practice-image img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.practice_left .text-image{
+  margin: 2.2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.text-image span:nth-child(1){
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.7rem;
+}
+.text-image span:nth-child(2){
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.text-image span:nth-child(3){
+  margin-top: 2.2rem;
+}
+.practice_choice{
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+.choice{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #C8C8C8;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction row;
+}
+.choice:nth-child(3){
+  background-color: #C8C8C8;
+}
+.choice-image {
+  width: 35%;
+}
+.choice-section {
+  width: 55%;
+  display: inline;
+  padding-top: 2rem;
+  padding-left: 1.4rem;
+}
+.choice-image img{
+  width: 100%;
+}
+.choice-section  .choice-title{
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #333333;
+}
+.choice-section .choice-text{
+  font-weight: lighter;
+}
+.choice-section .read-more{
+  line-height: 5;
+  color: #66CCFF;
+}
+
+/* CSS for section 3 - Start Learning */
+.learning_3{
+  width: 76%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.learning-title{
+  width: 100%;
+  margin: 32px auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.program{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.learning-program{
+  height: 280px;
+  width: 20rem;
+  margin: 8px 32px 16px;
+  padding-bottom: 24px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.learning-program span{
+  padding-bottom: 8px;
+  margin-top: 16px;
+}
+.program p img{
+  width: 100%;
+  height: auto;
+}
+.program-title{
+  font-size: 1.1rem;
+}
+
+
+
+
+/* CSS for section 4 - Thesis*/
+
+.learning_4{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.thesis-title{
+  margin: 32px auto;
+  border: 2px solid red;
+  text-align: center;
+}
+.video{
+  width: 50%;
+  height: 25.1rem;
+  margin-left: 1.7rem;
+  margin-right: 16px;
+}
+p video{
+  margin-bottom: 24px;
+}
+
+.thesis{
+  display: flex;
+  flex-direction: column;
+}
+.thesis div{
+  border: 2px solid purple;
+  width: 30.2rem;
+  height: 12rem;
+}
+
+/* CSS for footer */
+footer{
+  border: 2px solid yellow;
+  width: 100%;
+  height: 4.5rem;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+
+}
