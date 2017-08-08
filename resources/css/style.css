@@ -10,8 +10,7 @@ body{
   /*background-color: #FFF6F6;*/
 }
 
-.content-1,
-.content-4 {
+.content-1, {
   margin: auto;
   padding: 32px 24px;
 }
@@ -263,46 +262,91 @@ li a{
 
 
 
-
 /* CSS for section 4 - Thesis*/
 
 .learning_4{
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
 .content-4 .title{
+  width: 100%;
   margin: 32px auto;
-  border: 2px solid red;
   text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
 }
 .video{
-  width: 50%;
-  height: 25.1rem;
-  margin-left: 1.7rem;
-  margin-right: 16px;
+  width: 60%;
+  margin: 0 24px;
+  padding-bottom: 32px;
 }
-p video{
-  margin-bottom: 24px;
+.video-box-1{
+  padding-bottom: 24px;
 }
-
-.thesis{
+.video-box-2{
   display: flex;
   flex-direction: column;
 }
-.thesis div{
-  border: 2px solid purple;
+.video-box-2 span:nth-child(1){
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.video-box-2 span:nth-child(2){
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.thesis{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.thesis .choice{
   width: 30.2rem;
   height: 12rem;
+  display: flex;
+  flex-direction: row;
+}
+.thesis .choice:nth-child(1){
+  background-color: #C8C8C8;
+}
+.thesis .choice img{
+  width: 35%;
+  padding: 16px;
+}
+.choice .text .title{
+  font-size: 1.2rem;
+  margin-top: 32px;
+  font-weight: 600;
+  color: #333333;
+  text-align: left;
+}
+.choice .text{
+  display: flex;
+  flex-direction: column;
+}
+.choice .text .description{
+  font-weight: lighter;
+  line-height: 1.5;
 }
 
 /* CSS for footer */
 footer{
-  border: 2px solid yellow;
-  width: 100%;
-  height: 4.5rem;
-  margin-top: 100px;
+  border-top: 1px solid #BEBEBE;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
+}
 
+.copyright{
+
+}
+.terms{
+    margin-left: 65%;
+}
+.terms span{
+  padding-right: 10px;
 }
