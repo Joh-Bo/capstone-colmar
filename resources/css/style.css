@@ -219,12 +219,12 @@ li a{
   font-size: 2rem;
 }
 .program{
-  width: 100%;
+  width: 80%;
   margin: auto;
+  padding-left: 17%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid red;
 
 }
 .program .learning{
@@ -239,11 +239,22 @@ li a{
 }
 .learning .title{
   margin-top: 16px;
+  margin-left: 16px;
   font-size: 18px;
   font-weight: 600;
 }
 .learning .course{
-
+  margin: 8px 16px;
+}
+.learning .description{
+  margin-left: 16px;
+  margin-bottom: 24px;
+  line-height: normal;
+}
+.learning .course,
+.learning .description{
+  font-weight: lighter;
+  color: #A0A0A0;
 }
 .program p img{
   width: 100%;
