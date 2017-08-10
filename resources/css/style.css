@@ -379,6 +379,9 @@ footer{
     margin: 0 1.1rem;
 
     }
+    .content-1{
+      padding: 0;
+    }
     .learning_1{
       display: flex;
       flex-direction: column;
@@ -404,6 +407,7 @@ footer{
     }
     .block_2 p:nth-child(3){
       width: 90%;
+      margin-bottom: 1.7rem;
     }
 
     /* section 2 */
