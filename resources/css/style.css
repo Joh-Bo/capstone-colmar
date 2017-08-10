@@ -174,7 +174,6 @@ li a{
   flex-direction: column;
 }
 .course .choice{
-  width: 100%;
   height: auto;
   border-bottom: 1px solid #C8C8C8;
   padding: 1.1rem;
