@@ -395,13 +395,15 @@ footer{
       width: 100%;
       margin: 2.2rem 1.1rem 0;
     }
+    .block_2 p:nth-child(1){
+      width: 100%;
+    }
     .block_2 p:nth-child(2){
       width: 100%;
       font-wieght: 600;
     }
     .block_2 p:nth-child(3){
       width: 90%;
-      margin: 1.7rem 0 2.2rem;
     }
 
     /* section 2 */
@@ -414,10 +416,14 @@ footer{
       flex-direction: column;
       width: 100%;
       padding: 0;
+      border: none;
     }
     .course .choice:nth-child(3),
     .learning_3{
       background-color: #fff;
+    }
+    .learning_3{
+      border-top: 1px solid #E8E8E8;
     }
     .choice .image {
       display: none;
@@ -428,7 +434,7 @@ footer{
 
     }
     .choice .image-mobile img{
-      width: 100%;
+      width: 90%;
       display: block;
       background-position: center;
       background-size: cover;
@@ -446,15 +452,23 @@ footer{
     }
     .program .learning{
       height: auto;
-      background-color: #C8C8C8;
-      width: 100%;
+      background-color: #DCDCDC;
+      width: 90%;
     }
     .learning_3 .program{
       width: 100%;
       padding: 1.1rem;
     }
-    .section .read-more{
-      margin-top: -1.1rem;
+    .choice .section{
+      width: 90%;
+      margin-bottom: 1.1rem;
+    }
+    .choice .section .read-more{
+      line-height: normal;
+    }
+    .content-4{
+      border: 1px solid white;
+      border-top: 1px solid #E8E8E8;
     }
     .learning_4{
       display:flex;
@@ -464,14 +478,23 @@ footer{
       width: 100%;
       margin: 0;
     }
+    .video{
+      padding: 0;
+    }
     .video-box-2,
     .thesis .choice{
       display: none;
     }
     footer{
-      padding: 0;
-      display: initial;
       font-size: 0.9rem;
+      padding: 0;
+      border: none;
+    }
+    .copyright{
+      padding: 1.1rem !important;
+    }
+    .terms{
+      display: none;
     }
 
 }
